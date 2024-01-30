@@ -41,3 +41,14 @@
     margin-top: 100px;
     text-align: center;
 }
+
+@media screen and (min-width:600px) and (max-width:1200px){
+    .signin>form{
+        width: 40%;
+    }
+}
+@media screen and (min-width:300px) and (max-width:599px){
+    .signin>form{
+        width: 60%;
+    }
+}

@@ -49,3 +49,14 @@
     float: right;
     margin-top: 20px;
 }
+
+@media screen and (min-width:600px) and (max-width:1200px){
+    .addtask_container>form{
+        width: 40%;
+    }
+}
+@media screen and (min-width:300px) and (max-width:599px){
+    .addtask_container>form{
+        width: 60%;
+    }
+}

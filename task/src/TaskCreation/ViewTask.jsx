@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { database } from '../firebase';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../Common/Navbar';
-import './ViewTask.css'
+import './ViewTask.css';
 
 const ViewTask = () => {
   const [viewtask, setViewTask] = useState([]);
@@ -13,7 +13,7 @@ const ViewTask = () => {
   const [completedTasks, setCompletedTasks] = useState([]);
   const router = useNavigate();
 
-  function getAllTask() {
+  function getAllTask(){
     const TaskCollectionRef = collection(database, 'TaskManagement');
     let taskQuery = query(TaskCollectionRef);
 
@@ -75,6 +75,7 @@ const ViewTask = () => {
         console.log('Error marking task as completed in Firestore:', error.message);
       });
   }
+
   function handleFilterChange(event) {
     setDueDateFilter(event.target.value);
   }
@@ -95,13 +96,8 @@ const ViewTask = () => {
         <option value="pending">Pending</option>
       </select>
 
-
       <label>Filter by Due Date:</label>
       <input type="date" onChange={handleFilterChange} />
-
-
-
-
 
       <div className='viewtask'>
         {viewtask.map((task) => (

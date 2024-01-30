@@ -6,12 +6,11 @@ const Navbar = () => {
   const router = useNavigate();
   return (
     <div className='navbar'>
-      <h2 onClick={()=>router('/login')}>Login</h2>
-      <h2 onClick={()=>router('/register')}>Registeration</h2>
-      <h2 onClick={()=>router('/addtask')}>Add Task</h2>
-      <h2 onClick={()=>router('/updatetask')}>Update Task</h2>
-      <h2 onClick={()=>router('/viewtask')}>View Task</h2>
-      <h2 onClick={()=>router('/practice')}>Practice</h2>
+      <p onClick={()=>router('/login')}>Login</p>
+      <p onClick={()=>router('/register')}>Registeration</p>
+      <p onClick={()=>router('/addtask')}>Add Task</p>
+      <p onClick={()=>router('/updatetask')}>Update Task</p>
+      <p onClick={()=>router('/viewtask')}>View Task</p>
     </div>
   )
 }

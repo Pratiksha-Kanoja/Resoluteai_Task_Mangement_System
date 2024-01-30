@@ -6,7 +6,6 @@ import Resetpass from "./Auth/Resetpass";
 import AddTask from "./TaskCreation/AddTask";
 import UpdateTask from "./TaskCreation/UpdateTask";
 import ViewTask from "./TaskCreation/ViewTask";
-import Practice from "./TaskCreation/Practice";
 
 function App() {
   return (
@@ -24,7 +23,6 @@ function App() {
       <Route path='/addtask' element={<AddTask/>} />
       <Route path='/updatetask/:id' element={<UpdateTask/>} />
       <Route path='/viewtask' element={<ViewTask/>} />
-      <Route path='/practice' element={<Practice/>} />
      </Routes>
     </div>
   );

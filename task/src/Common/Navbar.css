@@ -8,9 +8,26 @@
     justify-content: space-between;
     padding: 20px;
 }
-.navbar>h2{
+.navbar>p{
     border: 2px solid black;
     padding: 10px;
     background-color: rgb(186, 186, 186);
     cursor: grab;
+    font-size: 30px;
+    font-weight: 600;
+}
+@media screen and (min-width:650px) and (max-width:1200px) {
+    .navbar>p{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:300px) and (max-width:649px) {
+    .navbar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .navbar>p{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
 }
