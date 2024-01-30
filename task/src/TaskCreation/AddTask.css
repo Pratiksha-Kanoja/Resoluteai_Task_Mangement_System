@@ -1,0 +1,51 @@
+.addtask_container{
+    width: 100%;
+}
+.addtask_container>form{
+    border: 1px solid rgb(210, 210, 210);
+    width: 25%;
+    height: 430px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 5px;
+}
+.addtask_container>form>h1{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.addtask_container>form>input{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 97%;
+    border: 1px solid gray;
+    padding-left: 10px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.addtask_container>form>textarea{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 97%;
+    border: 1px solid gray;
+    padding-left: 10px;
+    height: 100px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.addtask_container>form>button{
+    font-size: 13px;
+    padding: 10px 20px;
+    background-color: rgb(69, 114, 228);
+    font-weight: 500;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    float: right;
+    margin-top: 20px;
+}

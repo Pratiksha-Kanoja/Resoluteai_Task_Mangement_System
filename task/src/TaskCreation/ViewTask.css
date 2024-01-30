@@ -1,0 +1,64 @@
+.viewtask_container{
+    width: 100%;
+}
+.viewtask_container>p:nth-child(2){
+    margin-left: 20px;
+    font-size: 50px;
+    margin-top: 10px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.viewtask_container>label{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.viewtask_container>select{
+    font-size: 30px;
+    margin-left: 10px;
+    width: 150px;
+}
+.viewtask_container>input{
+    font-size: 18px;
+    margin-left: 10px;
+    width: 150px;
+}
+.viewtask{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.viewtask>div{
+    border: 1px solid rgb(205, 205, 205);
+    width: 27%;
+    margin-left: 20px;
+    margin-right: 10px;
+    height: 200px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px 10px rgb(216, 216, 216);
+    margin-top: 20px;
+}
+.viewtask>div>p:nth-child(2){
+    font-size: 20px;
+    margin-top: 10px;
+     display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.viewtask>div>p:nth-child(3){
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 700;
+    color: red;
+}
+.viewtask>div>div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.viewtask>div>div>button{
+    padding: 10px;
+    margin-top: 10px;
+}

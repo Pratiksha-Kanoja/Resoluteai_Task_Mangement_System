@@ -1,0 +1,43 @@
+.signin{
+    width: 100%;
+}
+.signin>form{
+    border: 1px solid rgb(210, 210, 210);
+    width: 25%;
+    height: 430px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 40px;
+    border-radius: 5px;
+}
+.signin>form>h1{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.signin>form>input{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 97%;
+    border: 1px solid gray;
+    padding-left: 10px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.signin>form>button{
+    font-size: 13px;
+    padding: 10px 20px;
+    background-color: rgb(69, 114, 228);
+    font-weight: 500;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    float: right;
+}
+.note{
+    margin-top: 100px;
+    text-align: center;
+}
